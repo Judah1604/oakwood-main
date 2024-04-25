@@ -1,6 +1,7 @@
 import DatePicker from "react-datetime";
 import "react-datetime/css/react-datetime.css";
 import "./styles/styles.css";
+import ImgUnderlay from "../../utils/ImgUnderlay";
 
 function BookInspection() {
 	const listOfEstates = [
@@ -32,10 +33,7 @@ function BookInspection() {
 
 	return (
 		<>
-            <div className="underlay">
-                <img src="/underlay.jpg" alt="Underlay" />
-                <h1>Schedule an Inspection</h1>
-            </div>
+			<ImgUnderlay title={"Schedule an Inspection"} />
 			<div className="bookInspection container row">
 				<div className="col-md-5">
 					<img

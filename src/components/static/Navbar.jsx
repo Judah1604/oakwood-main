@@ -56,7 +56,7 @@ function Navbar() {
 											? "nav-link active"
 											: "nav-link"
 									}
-									href="/meet-our-team"
+									href="/about/meet-our-team"
 								>
 									Meet our team
 								</a>

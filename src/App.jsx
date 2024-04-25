@@ -6,6 +6,7 @@ import Footer from "./components/static/Footer";
 import "./styles/base/common.css";
 import BookInspection from "./components/BookInspection/BookInspection";
 import About from "./components/About/About";
+import MeetOurTeam from "./components/About/MeetOurTeam";
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
                     <Route path="/" Component={Home} />
                     <Route path="/estates" Component={Estates} />
                     <Route path="/about" Component={About} />
+                    <Route path="/about/meet-our-team" Component={MeetOurTeam} />
                     <Route path="/book-an-inspection" Component={BookInspection} />
                 </Routes>
 			<Footer />

@@ -57,3 +57,53 @@
         }
     }
 }
+
+.meet-our-team {
+
+    .uppercase {
+        text-transform: uppercase;
+    }
+
+    .ceo {
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin: 30px auto;
+
+        img {
+            border-radius: 15px;
+            padding: 0;
+        }
+
+        .btn {
+            padding: 15px 30px;
+        }
+    }
+
+    .members {
+        width: 90%;
+        justify-content: space-between;
+        margin: 60px auto;
+        gap: 30px;
+    }
+
+    .member {
+        padding: 20px;
+        text-align: center;
+        background-color: #bebebe;
+        border-radius: 15px;
+        transition: 0.3s;
+        cursor: pointer;
+
+        img {
+            width: 100%;
+            height: 350px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}
