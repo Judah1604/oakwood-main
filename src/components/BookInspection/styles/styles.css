@@ -1,0 +1,36 @@
+.bookInspection {
+  margin: 30px auto;
+  justify-content: center;
+}
+.bookInspection input,
+.bookInspection textarea {
+  padding: 0.6em 1.2em;
+  width: 100%;
+}
+.bookInspection textarea {
+  height: 180px;
+}
+.bookInspection .submitBtn {
+  text-align: right;
+}
+
+.underlay {
+  position: relative;
+  padding: 60px;
+}
+.underlay img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  filter: brightness(0.6);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.underlay h1 {
+  color: white;
+  position: relative;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}/*# sourceMappingURL=styles.css.map */

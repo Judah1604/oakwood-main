@@ -1,0 +1,47 @@
+.about {
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+.about h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.about .float-left {
+  float: left;
+}
+.about .float-right {
+  float: right;
+}
+.about .text {
+  line-height: 1.4;
+}
+.about .text img {
+  width: 350px;
+  padding: 30px;
+}
+.about .objectives .obj {
+  transform: none;
+  text-align: center;
+  color: black;
+}
+.about .objectives .obj img {
+  margin-bottom: 20px;
+}
+.about .brands {
+  gap: 100px;
+}
+.about .brands img {
+  width: -moz-max-content;
+  width: max-content;
+  height: 200px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.about .brands img:hover {
+  transform: scale(1.05);
+}
+.about .brands .wide-img {
+  width: 400px;
+  height: -moz-max-content;
+  height: max-content;
+}/*# sourceMappingURL=styles.css.map */

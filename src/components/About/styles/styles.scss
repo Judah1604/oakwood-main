@@ -1,0 +1,59 @@
+.about {
+    margin: 0 auto;
+    font-size: 1.2em;
+
+    h1 {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .float-left {
+        float: left;
+    }
+
+    .float-right {
+        float: right;
+    }
+
+    .text {
+        img {
+            width: 350px;
+            padding: 30px;
+        }
+
+        line-height: 1.4;
+    }
+
+    .objectives {
+
+        .obj {
+            transform: none;
+            text-align: center;
+            color: black;
+
+            img {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .brands {
+        gap: 100px;
+
+        img {
+            width: max-content;
+            height: 200px;
+            transition: 0.3s ease;
+            cursor: pointer;
+
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+
+        .wide-img {
+            width: 400px;
+            height: max-content;
+        }
+    }
+}

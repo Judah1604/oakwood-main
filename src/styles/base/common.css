@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@500&display=swap");
+body {
+  font-family: "Onest", sans-serif !important;
+  background-color: #f1f1f1;
+}
+
+.btn-orange {
+  background-color: #ff5810;
+  margin-left: 10px;
+  padding: 15px 20px;
+  color: white;
+}
+.btn-orange:hover {
+  background-color: #f86f35;
+  color: white;
+}
+.btn-orange.icon-left i {
+  margin-right: 10px;
+}
+
+h1 span, h2 span, h3 span, h4 span {
+  color: #ff5810;
+}/*# sourceMappingURL=common.css.map */

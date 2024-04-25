@@ -1,0 +1,95 @@
+.hero {
+    img {
+        width: 100%;
+    }
+}
+
+.objectives {
+    justify-content: space-around;
+    text-align: center;
+    margin: 30px auto;
+
+    &>* {
+        color: white;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: 0.3s ease;
+
+        i {
+            font-size: 2.5em;
+            color: white;
+            padding: 25px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        &:hover {
+            transform: translateY(-10px);
+        }
+    }
+
+    .bg-orange {
+        background-color: #ff5810;
+    }
+}
+
+.services {
+    img {
+        border-radius: 30px 30px 0 0;
+    }
+
+    &>* {
+        margin-bottom: 30px;
+    }
+}
+
+.estates {
+
+    &>* {
+        text-align: center;
+        align-items: center;
+
+        img {
+            margin-bottom: 25px;
+        }
+
+    }
+
+    button span {
+        width: 5rem;
+        height: 5rem;
+        filter: brightness(0.2);
+    }
+
+    .toggle {
+        margin-top: 40px;
+        cursor: pointer;
+
+        i {
+            margin-right: 15px;
+            transition: 0.4s ease;
+        }
+    }
+
+    .up {
+        i {
+            transform: rotate(180deg);
+        }
+    }
+}
+
+.inspect {
+    h1 {
+        font-size: 3em;
+    }
+}
+
+.projects {
+    .videos {
+        iframe {
+            margin-bottom: 10px;
+        }
+    }
+}
