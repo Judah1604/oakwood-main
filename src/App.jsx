@@ -7,6 +7,7 @@ import "./styles/base/common.css";
 import BookInspection from "./components/BookInspection/BookInspection";
 import About from "./components/About/About";
 import MeetOurTeam from "./components/About/MeetOurTeam";
+import CEO from "./components/About/CEO";
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
                     <Route path="/estates" Component={Estates} />
                     <Route path="/about" Component={About} />
                     <Route path="/about/meet-our-team" Component={MeetOurTeam} />
+                    <Route path="/about/ceo" Component={CEO} />
                     <Route path="/book-an-inspection" Component={BookInspection} />
                 </Routes>
 			<Footer />

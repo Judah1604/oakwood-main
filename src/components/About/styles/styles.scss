@@ -107,3 +107,32 @@
         }
     }
 }
+
+.ceo-page {
+    margin: auto;
+
+    .header {
+        align-items: center;
+
+        .extra-bold {
+            font-size: 4em;
+            text-align: center;
+        }
+    }
+
+    p, ul {
+        font-size: 1.2em;
+        line-height: 1.8;
+    }
+
+    .about {
+        img {
+            margin: 0 30px;
+            width: 400px;
+        }
+    }
+}
+
+.uppercase {
+    text-transform: uppercase;
+}

@@ -18,16 +18,16 @@ function Footer() {
 				<div className="contact-info">
 					<div className="icons">
 						<a href="#">
-							<i class="fa-brands fa-facebook-f"></i>
-						</a>
-						<a href="#">
 							<i class="fa-brands fa-x-twitter"></i>
 						</a>
 						<a href="#">
 							<i class="fa-brands fa-instagram"></i>
 						</a>
 						<a href="#">
-							<i class="fa-brands fa-youtube"></i>
+							<i class="fa-brands fa-linkedin-in"></i>
+						</a>
+						<a href="#">
+							<i class="fa-brands fa-whatsapp"></i>
 						</a>
 					</div>
 					<p>Oakwoodgroupltd</p>

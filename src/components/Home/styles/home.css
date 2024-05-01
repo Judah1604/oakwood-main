@@ -65,4 +65,8 @@
 
 .projects .videos iframe {
   margin-bottom: 10px;
+}
+
+.show {
+  display: block !important;
 }/*# sourceMappingURL=home.css.map */

@@ -17,7 +17,7 @@ function MeetOurTeam() {
 						<h1>
 							<b>Kelvin Monday Udoh</b>
 						</h1>
-						<a href="#" className="btn btn-orange uppercase mt-3">
+						<a href="/about/ceo" className="btn btn-orange uppercase mt-3">
 							Read More
 						</a>
 					</div>

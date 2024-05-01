@@ -85,4 +85,27 @@
 }
 .meet-our-team .member:hover {
   transform: scale(1.05);
+}
+
+.ceo-page {
+  margin: auto;
+}
+.ceo-page .header {
+  align-items: center;
+}
+.ceo-page .header .extra-bold {
+  font-size: 4em;
+  text-align: center;
+}
+.ceo-page p, .ceo-page ul {
+  font-size: 1.2em;
+  line-height: 1.8;
+}
+.ceo-page .about img {
+  margin: 0 30px;
+  width: 400px;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }/*# sourceMappingURL=styles.css.map */
