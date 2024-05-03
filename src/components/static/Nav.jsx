@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Nav() {
+function Nav({pathname}) {
   return (
 		<div className="nav align-items-center">
 			<a

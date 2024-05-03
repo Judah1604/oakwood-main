@@ -40,7 +40,7 @@ const Objectives = () => {
 				<div className="services container-fluid row">
 					<div className="col-md-4">
 						<img
-							src="/service1.jpg"
+							src="/services/investment.jpeg"
 							alt="Real Estate Investment"
 							className="img-fluid mb-3"
 						/>
@@ -50,7 +50,7 @@ const Objectives = () => {
 					</div>
 					<div className="col-md-4">
 						<img
-							src="/service1.jpg"
+							src="/services/property.jpeg"
 							alt="Property Development"
 							className="img-fluid mb-3"
 						/>
@@ -60,7 +60,7 @@ const Objectives = () => {
 					</div>
 					<div className="col-md-4">
 						<img
-							src="/service1.jpg"
+							src="/services/consultancy.jpeg"
 							alt="Real Estate Consultancy"
 							className="img-fluid mb-3"
 						/>
@@ -70,7 +70,7 @@ const Objectives = () => {
 					</div>
 					<div className="col-md-4">
 						<img
-							src="/service1.jpg"
+							src="/services/management.jpeg"
 							alt="Real Estate Management"
 							className="img-fluid mb-3"
 						/>

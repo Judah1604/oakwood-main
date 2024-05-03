@@ -38,17 +38,8 @@
 
     .menu-icon {
         display: none;
-        justify-content: space-between;
-        flex-direction: column;
-        width: 30px;
-        height: 20px;
-
-        span {
-            background-color: white;
-            width: 100%;
-            height: 2px;
-            border-radius: 20px;
-        }
+        color: white;
+        font-size: 1.8em;
     }
 }
 
@@ -94,12 +85,64 @@
     height: 80px;
 }
 
+.menu {
+    position: fixed;
+    inset: 0;
+    z-index: 10;
+    background-color: rgb(33, 37, 41, 0.3);
+    height: 100vh;
+    transform: translateX(100%);
+    transition: 0.3s ease;
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 0;
+
+        .nav-item,
+        .nav-link {
+            color: white;
+            padding: 15px;
+            text-align: center;
+
+            i {
+                margin-left: 7px;
+            }
+        }
+
+        .dropdown-menu {
+            position: static !important;
+            display: none;
+            transform: none !important;
+        }
+
+        .show {
+            display: block !important;
+        }
+    }
+
+    .closebtn {
+        color: white;
+        font-size: 2em;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        z-index: 100;
+    }
+}
+
+.menu.active {
+    transform: translateX(0) !important;
+}
+
 @media only screen and (max-width: 768px) {
     .navbar .nav {
         display: none;
     }
 
     .menu-icon {
-        display: flex !important;
+        display: block !important;
     }
 }
