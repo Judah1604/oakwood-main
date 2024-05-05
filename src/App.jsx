@@ -8,6 +8,8 @@ import BookInspection from "./components/BookInspection/BookInspection";
 import About from "./components/About/About";
 import MeetOurTeam from "./components/About/MeetOurTeam";
 import CEO from "./components/About/CEO";
+import Services from "./components/Services/Services";
+import Contact from "./components/Contact/Contact";
 
 function App() {
 	return (
@@ -20,6 +22,8 @@ function App() {
                     <Route path="/about" Component={About} />
                     <Route path="/about/meet-our-team" Component={MeetOurTeam} />
                     <Route path="/about/ceo" Component={CEO} />
+                    <Route path="/services" Component={Services} />
+                    <Route path="/contact" Component={Contact} />
                     <Route path="/book-an-inspection" Component={BookInspection} />
                 </Routes>
 			<Footer />
