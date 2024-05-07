@@ -64,7 +64,7 @@
 }
 .meet-our-team .members {
   width: 90%;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 60px auto;
   gap: 30px;
 }
@@ -97,7 +97,8 @@
   font-size: 4em;
   text-align: center;
 }
-.ceo-page p, .ceo-page ul {
+.ceo-page p,
+.ceo-page ul {
   font-size: 1.2em;
   line-height: 1.8;
 }
@@ -108,4 +109,24 @@
 
 .uppercase {
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+  .meet-our-team .ceo .col-md-4 {
+    width: 60%;
+  }
+  .members .col-md-3 {
+    width: 47%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .brands {
+    justify-content: center;
+  }
+  .meet-our-team .ceo .col-md-4 {
+    width: 100%;
+  }
+  .members .col-md-3 {
+    width: 100%;
+  }
 }/*# sourceMappingURL=styles.css.map */

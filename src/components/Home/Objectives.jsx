@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import './styles/home.css'
 
 const Objectives = () => {
 	return (
@@ -37,46 +37,58 @@ const Objectives = () => {
 				<h1 className="text-center mb-3">
 					Our <span>Services</span>
 				</h1>
-				<div className="services container-fluid row">
-					<div className="col-md-4">
-						<img
-							src="/services/investment.jpeg"
-							alt="Real Estate Investment"
-							className="img-fluid mb-3"
-						/>
-						<h2 className="text-center">
-							Real Estate <span>Investment</span>
-						</h2>
-					</div>
-					<div className="col-md-4">
-						<img
-							src="/services/property.jpeg"
-							alt="Property Development"
-							className="img-fluid mb-3"
-						/>
-						<h2 className="text-center">
-							Property <span>Development</span>
-						</h2>
-					</div>
-					<div className="col-md-4">
-						<img
-							src="/services/consultancy.jpeg"
-							alt="Real Estate Consultancy"
-							className="img-fluid mb-3"
-						/>
-						<h2 className="text-center">
-							Real Estate <span>Consultancy</span>
-						</h2>
-					</div>
-					<div className="col-md-4">
-						<img
-							src="/services/management.jpeg"
-							alt="Real Estate Management"
-							className="img-fluid mb-3"
-						/>
-						<h2 className="text-center">
-							Real Estate <span>Management</span>
-						</h2>
+				<div className="services container-fluid">
+					<div className="carousel slide" data-bs-ride="carousel">
+						<div className="carousel-inner">
+							<div className="carousel-item active">
+								<div className="content row justify-content-center">
+									<div className="col-md-5">
+										<img
+											src="/services/investment.jpeg"
+											alt="Real Estate Investment"
+											className="img-fluid mb-3"
+										/>
+										<h2 className="text-center">
+											Real Estate <span>Investment</span>
+										</h2>
+									</div>
+									<div className="col-md-5">
+										<img
+											src="/services/property.jpeg"
+											alt="Property Development"
+											className="img-fluid mb-3"
+										/>
+										<h2 className="text-center">
+											Property <span>Development</span>
+										</h2>
+									</div>
+								</div>
+							</div>
+							<div className="carousel-item">
+								<div className="content row justify-content-center">
+									<div className="col-md-5">
+										<img
+											src="/services/consultancy.jpeg"
+											alt="Real Estate Consultancy"
+											className="img-fluid mb-3"
+										/>
+										<h2 className="text-center">
+											Real Estate <span>Consultancy</span>
+										</h2>
+									</div>
+									<div className="col-md-5">
+										<img
+											src="/services/management.jpeg"
+											alt="Real Estate Management"
+											className="img-fluid mb-3"
+										/>
+										<h2 className="text-center">
+											Real Estate <span>Management</span>
+										</h2>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

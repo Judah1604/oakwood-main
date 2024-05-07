@@ -17,7 +17,10 @@ function MeetOurTeam() {
 						<h1>
 							<b>Kelvin Monday Udoh</b>
 						</h1>
-						<a href="/about/ceo" className="btn btn-orange uppercase mt-3">
+						<a
+							href="/about/ceo"
+							className="btn btn-orange uppercase mt-3"
+						>
 							Read More
 						</a>
 					</div>
@@ -59,13 +62,24 @@ function MeetOurTeam() {
 					<div className="member col-md-3">
 						<img
 							className="mb-3"
-							src="/images/team/zane.jpg"
+							src="/images/team/zane.jpeg"
 							alt="MOSES MICHAEL O."
 						/>
 						<h3>
 							<b>MOSES MICHAEL O.</b>
 						</h3>
 						<h3>IT Personnel/ Media</h3>
+					</div>
+					<div className="member col-md-3">
+						<img
+							className="mb-3"
+							src="/images/team/jummy.jpeg"
+							alt="Olusola Olajumoke M."
+						/>
+						<h3>
+							<b>Olusola Olajumoke M.</b>
+						</h3>
+						<h3>Secretary</h3>
 					</div>
 					<div className="member col-md-3">
 						<img
@@ -77,6 +91,17 @@ function MeetOurTeam() {
 							<b>IHEZUO JUSTICEMARY CHUKWUJEKWU</b>
 						</h3>
 						<h3>Operational Manager</h3>
+					</div>
+					<div className="member col-md-3">
+						<img
+							className="mb-3"
+							src="/images/team/fortune.jpeg"
+							alt="FORTUNE WOKO"
+						/>
+						<h3>
+							<b>FORTUNE WOKO</b>
+						</h3>
+						<h3>Sales Rep</h3>
 					</div>
 					<div className="member col-md-3">
 						<img

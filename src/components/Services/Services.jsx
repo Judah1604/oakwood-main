@@ -6,7 +6,7 @@ function Services() {
 	return (
 		<>
 			<ImgUnderlay title={"Our Services"} />
-			<div className="services container mt-5">
+			<div className="services-page container mt-5">
 				<Service
 					img={"property"}
 					name={"Property"}

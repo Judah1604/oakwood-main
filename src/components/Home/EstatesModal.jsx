@@ -14,7 +14,7 @@ function EstatesModal() {
 	}, []);
 
 	return (
-		<div className="modal modal-xl" id="estatesModal">
+		<div className="modal modal-xxl" id="estatesModal">
 			<div className="modal-dialog">
 				<div className="modal-content">
 					<div className="modal-header">

@@ -1,25 +1,17 @@
-.bookInspection,
 .consultant {
-    margin: 30px auto;
-    justify-content: center;
+    .radios {
+        display: flex;
+        gap: 40px;
 
-    input,
-    textarea {
-        padding: 0.6em 1.2em;
-        width: 100%;
-    }
-
-    textarea {
-        height: 180px;
-    }
-
-    .submitBtn {
-        text-align: right;
+        & > * {
+            display: flex;
+            gap: 10px;
+        }
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .bookInspection {
+    .consultant {
         .col-md-6 {
             width: 58%;
         }
@@ -27,7 +19,7 @@
 }
 
 @media only screen and (max-width: 425px) {
-    .bookInspection {
+    .consultant {
 
         form {
             margin: 40px 0 !important;

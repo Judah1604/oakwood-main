@@ -1,15 +1,34 @@
-.bookInspection {
+.bookInspection,
+.consultant {
   margin: 30px auto;
   justify-content: center;
 }
 .bookInspection input,
-.bookInspection textarea {
+.bookInspection textarea,
+.consultant input,
+.consultant textarea {
   padding: 0.6em 1.2em;
   width: 100%;
 }
-.bookInspection textarea {
+.bookInspection textarea,
+.consultant textarea {
   height: 180px;
 }
-.bookInspection .submitBtn {
+.bookInspection .submitBtn,
+.consultant .submitBtn {
   text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+  .bookInspection .col-md-6 {
+    width: 58%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .bookInspection form {
+    margin: 40px 0 !important;
+  }
+  .bookInspection .col-md-6 {
+    width: 100%;
+  }
 }/*# sourceMappingURL=styles.css.map */

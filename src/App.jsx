@@ -10,23 +10,34 @@ import MeetOurTeam from "./components/About/MeetOurTeam";
 import CEO from "./components/About/CEO";
 import Services from "./components/Services/Services";
 import Contact from "./components/Contact/Contact";
+import Consultant from "./components/Consultant/Consultant";
 
 function App() {
 	return (
 		<>
 			<Router>
-			<Navbar />
+				<Navbar />
 				<Routes>
-                    <Route path="/" Component={Home} />
-                    <Route path="/estates" Component={Estates} />
-                    <Route path="/about" Component={About} />
-                    <Route path="/about/meet-our-team" Component={MeetOurTeam} />
-                    <Route path="/about/ceo" Component={CEO} />
-                    <Route path="/services" Component={Services} />
-                    <Route path="/contact" Component={Contact} />
-                    <Route path="/book-an-inspection" Component={BookInspection} />
-                </Routes>
-			<Footer />
+					<Route path="/" Component={Home} />
+					<Route path="/estates" Component={Estates} />
+					<Route path="/about" Component={About} />
+					<Route
+						path="/about/meet-our-team"
+						Component={MeetOurTeam}
+					/>
+					<Route path="/about/ceo" Component={CEO} />
+					<Route path="/services" Component={Services} />
+					<Route path="/contact" Component={Contact} />
+					<Route
+						path="/book-an-inspection"
+						Component={BookInspection}
+					/>
+					<Route
+						path="/become-a-consultant"
+						Component={Consultant}
+					/>
+				</Routes>
+				<Footer />
 			</Router>
 		</>
 	);

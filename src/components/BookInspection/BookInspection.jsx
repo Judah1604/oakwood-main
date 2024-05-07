@@ -43,16 +43,16 @@ function BookInspection() {
 					/>
 				</div>
 				<div className="col-md-6 text">
-					<form action="#" className="mt-5 mx-4">
+					<form action="#" className="mt-3 mx-4">
 						<div className="mb-3">
 							<label for="name" className="form-label">
-								Name
+								Full Name
 							</label>
 							<input
 								type="text"
 								className="form-control"
 								id="name"
-								name="name"
+								name="Full Name"
 								required
 							/>
 						</div>
@@ -64,7 +64,7 @@ function BookInspection() {
 								type="email"
 								className="form-control"
 								id="email"
-								name="email"
+								name="Email address"
 								required
 							/>
 						</div>
@@ -76,7 +76,7 @@ function BookInspection() {
 								type="number"
 								className="form-control"
 								id="phone"
-								name="phone"
+								name="Phone Number"
 								required
 							/>
 						</div>
@@ -85,7 +85,7 @@ function BookInspection() {
 								Property
 							</label>
 							<select
-								name="property"
+								name="Property"
 								id="property"
 								className="form-control"
 								required
@@ -111,13 +111,15 @@ function BookInspection() {
 								Message
 							</label>
 							<textarea
-								name="message"
+								name="Message"
 								id="message"
 								className="form-control"
 							></textarea>
 						</div>
 						<div className="submitBtn">
-							<button className="btn btn-orange">Submit</button>
+							<button className="btn btn-orange icon-left">
+								<i class="fa-solid fa-paper-plane"></i>Submit
+							</button>
 						</div>
 					</form>
 				</div>

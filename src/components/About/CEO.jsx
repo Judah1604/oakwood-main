@@ -21,9 +21,9 @@ function CEO() {
 				<div className="mt-4 about">
 					<div>
 						<img
-							src="/images/team/boss.jpg"
+							src="/images/team/boss3.jpg"
 							alt="BARR.KELVINUDOH MONDAY"
-							className="float-left"
+							className="float-right"
 						/>
 					</div>
 					<div>
