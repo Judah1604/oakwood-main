@@ -56,7 +56,7 @@ function Contact() {
 							<input
 								className="col-md-5 form-control"
 								type="text"
-								name="Name"
+								name="Full Name"
 								placeholder="Name"
 							/>
 							<input
