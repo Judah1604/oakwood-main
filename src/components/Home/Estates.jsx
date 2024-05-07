@@ -145,6 +145,7 @@ function Estates() {
 						</div>
 					</div>
 					<div
+						id="mobileCarousel"
 						class="mobile-carousel carousel slide"
 						data-bs-ride="carousel"
 					>
@@ -283,7 +284,7 @@ function Estates() {
 						<button
 							class="carousel-control-prev"
 							type="button"
-							data-bs-target="#estatesCarousel"
+							data-bs-target="#mobileCarousel"
 							data-bs-slide="prev"
 						>
 							<span
@@ -295,7 +296,7 @@ function Estates() {
 						<button
 							class="carousel-control-next"
 							type="button"
-							data-bs-target="#estatesCarousel"
+							data-bs-target="#mobileCarousel"
 							data-bs-slide="next"
 						>
 							<span
