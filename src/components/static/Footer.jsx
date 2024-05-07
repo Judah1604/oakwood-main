@@ -17,10 +17,10 @@ function Footer() {
 				</div>
 				<div className="contact-info">
 					<div className="icons">
-						<a href="#">
+						<a href="https://x.com/oakwoodgroupltd?s=21">
 							<i class="fa-brands fa-x-twitter"></i>
 						</a>
-						<a href="#">
+						<a href="https://www.instagram.com/oakwoodgroupltd?igsh=MXE2eXdtZjZnY3NhdQ%3D%3D&utm_source=qr">
 							<i class="fa-brands fa-instagram"></i>
 						</a>
 						<a href="#">
