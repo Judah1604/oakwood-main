@@ -8,7 +8,7 @@ function Estates() {
 				<div className="estates mt-4">
 					<div
 						id="estatesCarousel"
-						class="carousel slide"
+						class="estates-carousel carousel slide"
 						data-bs-ride="carousel"
 					>
 						<div class="carousel-inner">

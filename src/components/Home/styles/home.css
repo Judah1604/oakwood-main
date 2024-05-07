@@ -104,6 +104,9 @@
   .inspect img {
     margin-bottom: 30px;
   }
+  .estates-carousel {
+    display: none !important;
+  }
   .mobile-carousel {
     display: block !important;
   }
