@@ -98,7 +98,7 @@ function EstatesModal() {
 											</div>
 											<div className="col-md-4">
 												<img
-													src="/public/estates/midsprings-court.jpeg"
+													src="/estates/midsprings-court.jpeg"
 													alt="Midsprings Courts"
 													className="img-fluid"
 												/>
