@@ -6,7 +6,6 @@ function About() {
 		<>
 			<ImgUnderlay title={"About us"} />
 			<div className="about container my-4">
-				<h1 className="text-center my-3">About us</h1>
 				<div className="container-fluid">
 					<p className="float-right text">
 						<img

@@ -159,6 +159,10 @@
         justify-content: center;
     }
 
+    .about .float-right {
+        float: none;
+    }
+
     .meet-our-team {
         .ceo {
             .col-md-4 {
@@ -168,6 +172,7 @@
     }
 
         .members {
+            width: 100% !important;
             .col-md-3 {
                 width: 100%;
             }
