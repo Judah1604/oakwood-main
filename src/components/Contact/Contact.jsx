@@ -87,14 +87,13 @@ function Contact() {
 							></textarea>
 						</div>
 						<div className="form-btn">
-							<a
-								href="#"
+							<button
 								className="btn btn-orange icon-left"
 								type="submit"
 							>
 								<i class="fa-solid fa-paper-plane"></i>
 								Submit
-							</a>
+							</button>
 						</div>
 					</form>
 				</div>
