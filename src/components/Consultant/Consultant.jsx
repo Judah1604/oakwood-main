@@ -15,11 +15,16 @@ function Consultant() {
 				</div>
 				<div className="col-md-7 text">
 					<form
-						method="post"
+						method="POST"
 						name="Become a Consultant Form"
 						className="mt-3 mx-4"
 						data-netlify="true"
 					>
+						<input
+							type="hidden"
+							name="form-name"
+							value="Become a Consultant Form"
+						/>
 						<div className="mb-3">
 							<label for="name" className="form-label">
 								Full Name

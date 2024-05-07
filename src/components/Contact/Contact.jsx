@@ -48,10 +48,15 @@ function Contact() {
 					</div>
 					<form
 						name="Contact Form"
-						method="post"
+						method="POST"
 						className="col-md-8 form"
 						data-netlify="true"
 					>
+						<input
+							type="hidden"
+							name="form-name"
+							value="Contact Form"
+						/>
 						<div className="form-group row">
 							<input
 								className="col-md-5 form-control"

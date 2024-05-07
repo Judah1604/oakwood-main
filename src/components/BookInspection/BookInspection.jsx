@@ -44,11 +44,16 @@ function BookInspection() {
 				</div>
 				<div className="col-md-6 text">
 					<form
-						method="post"
+						method="POST"
 						name="Book an Inspection Form"
 						className="mt-3 mx-4"
 						data-netlify="true"
 					>
+						<input
+							type="hidden"
+							name="form-name"
+							value="Book an Inspection Form"
+						/>
 						<div className="mb-3">
 							<label for="name" className="form-label">
 								Full Name
