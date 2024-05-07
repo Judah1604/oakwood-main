@@ -14,7 +14,7 @@ function Navbar() {
 				<div className="container-fluid">
 					<a href="/" className="navbar-brand">
 						<img
-							src="/public/Logo.png"
+							src="/Logo.png"
 							alt="Oakwood Group"
 							className="logo"
 						/>

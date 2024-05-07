@@ -76,7 +76,7 @@ function Estates() {
 									</div>
 									<div className="col-md-3">
 										<img
-											src="/public/estates/midsprings-court.jpeg"
+											src="/estates/midsprings-court.jpeg"
 											alt="Midsprings Courts"
 											className="img-fluid"
 										/>
@@ -109,14 +109,6 @@ function Estates() {
 											className="img-fluid"
 										/>
 										<h3>Misprings Park</h3>
-									</div>
-									<div className="col-md-3">
-										<img
-											src="/public/estates/midsprings-court.jpeg"
-											alt="Midsprings Courts"
-											className="img-fluid"
-										/>
-										<h3>Midsprings Courts</h3>
 									</div>
 								</div>
 							</div>

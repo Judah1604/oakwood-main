@@ -36,7 +36,7 @@ function EstatesModal() {
 								<div class="carousel-inner">
 									<div class="carousel-item active">
 										<div className="content default row">
-											<div className="col-md-4">
+											<div className="col-md-3">
 												<img
 													src="/estates/amazon.jpeg"
 													alt="Amazon"
@@ -44,7 +44,7 @@ function EstatesModal() {
 												/>
 												<h3>Oakwood Amazone</h3>
 											</div>
-											<div className="col-md-4">
+											<div className="col-md-3">
 												<img
 													src="/estates/maldives.jpeg"
 													alt="The Maldives"
@@ -52,7 +52,7 @@ function EstatesModal() {
 												/>
 												<h3>The Maldives</h3>
 											</div>
-											<div className="col-md-4">
+											<div className="col-md-3">
 												<img
 													src="/estates/pavilion.jpeg"
 													alt="Pavilion Homes"
@@ -60,7 +60,7 @@ function EstatesModal() {
 												/>
 												<h3>Pavilion Homes</h3>
 											</div>
-											<div className="col-md-4">
+											<div className="col-md-3">
 												<img
 													src="/estates/gardens.jpeg"
 													alt="Oakwood Gardens"
@@ -72,7 +72,7 @@ function EstatesModal() {
 									</div>
 									<div class="carousel-item">
 										<div className="content default row">
-											<div className="col-md-4">
+											<div className="col-md-3">
 												<img
 													src="/estates/cascade.jpeg"
 													alt="Cascade Voyage Phase 2"
@@ -80,7 +80,7 @@ function EstatesModal() {
 												/>
 												<h3>Cascade Voyage Phase 2</h3>
 											</div>
-											<div className="col-md-4">
+											<div className="col-md-3">
 												<img
 													src="/estates/umbrella.jpeg"
 													alt="Umbrella City"
@@ -88,7 +88,7 @@ function EstatesModal() {
 												/>
 												<h3>Umbrella City</h3>
 											</div>
-											<div className="col-md-4">
+											<div className="col-md-3">
 												<img
 													src="/estates/silicon-oasis.jpeg"
 													alt="Silicon Oasis"
@@ -96,7 +96,7 @@ function EstatesModal() {
 												/>
 												<h3>Silicon Oasis</h3>
 											</div>
-											<div className="col-md-4">
+											<div className="col-md-3">
 												<img
 													src="/estates/midsprings-court.jpeg"
 													alt="Midsprings Courts"
@@ -108,7 +108,7 @@ function EstatesModal() {
 									</div>
 									<div class="carousel-item">
 										<div className="content default row">
-											<div className="col-md-4">
+											<div className="col-md-3">
 												<img
 													src="/estates/skyfall.jpeg"
 													alt="Skyfall By Oakwood"
@@ -116,7 +116,7 @@ function EstatesModal() {
 												/>
 												<h3>Skyfall By Oakwood</h3>
 											</div>
-											<div className="col-md-4">
+											<div className="col-md-3">
 												<img
 													src="/estates/green-island.jpeg"
 													alt="Green Island"
@@ -124,21 +124,13 @@ function EstatesModal() {
 												/>
 												<h3>Green Island</h3>
 											</div>
-											<div className="col-md-4">
+											<div className="col-md-3">
 												<img
 													src="/estates/midsprings-park.jpeg"
 													alt="Misprings Park"
 													className="img-fluid"
 												/>
 												<h3>Misprings Park</h3>
-											</div>
-											<div className="col-md-4">
-												<img
-													src="/public/estates/midsprings-court.jpeg"
-													alt="Midsprings Courts"
-													className="img-fluid"
-												/>
-												<h3>Midsprings Courts</h3>
 											</div>
 										</div>
 									</div>
