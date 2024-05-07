@@ -47,7 +47,7 @@ function BookInspection() {
 						method="post"
 						name="Book an Inspection Form"
 						className="mt-3 mx-4"
-						netlify
+						data-netlify="true"
 					>
 						<div className="mb-3">
 							<label for="name" className="form-label">

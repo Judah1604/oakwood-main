@@ -18,7 +18,7 @@ function Consultant() {
 						method="post"
 						name="Become a Consultant Form"
 						className="mt-3 mx-4"
-						netlify
+						data-netlify="true"
 					>
 						<div className="mb-3">
 							<label for="name" className="form-label">

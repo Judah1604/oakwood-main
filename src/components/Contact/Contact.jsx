@@ -46,7 +46,12 @@ function Contact() {
 							</div>
 						</div>
 					</div>
-					<form name="Contact Form" method="post" className="col-md-8 form" netlify>
+					<form
+						name="Contact Form"
+						method="post"
+						className="col-md-8 form"
+						data-netlify="true"
+					>
 						<div className="form-group row">
 							<input
 								className="col-md-5 form-control"
