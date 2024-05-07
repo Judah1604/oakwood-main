@@ -49,11 +49,10 @@
 }
 .estates .toggle {
   margin-top: 40px;
-  cursor: pointer;
 }
-.estates .toggle i {
-  margin-right: 15px;
-  transition: 0.4s ease;
+.estates .toggle a {
+  color: black;
+  text-decoration: none;
 }
 .estates .up i {
   transform: rotate(180deg);
@@ -104,5 +103,8 @@
   }
   .inspect img {
     margin-bottom: 30px;
+  }
+  .mobile-carousel {
+    display: block !important;
   }
 }/*# sourceMappingURL=home.css.map */

@@ -22,6 +22,10 @@ body {
   margin-right: 10px;
 }
 
+.mobile-carousel {
+  display: none;
+}
+
 h1 span, h2 span, h3 span, h4 span {
   color: #ff5810;
 }/*# sourceMappingURL=common.css.map */

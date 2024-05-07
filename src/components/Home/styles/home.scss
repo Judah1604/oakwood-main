@@ -65,11 +65,9 @@
 
     .toggle {
         margin-top: 40px;
-        cursor: pointer;
-
-        i {
-            margin-right: 15px;
-            transition: 0.4s ease;
+        a {
+            color: black;
+            text-decoration: none;
         }
     }
 
@@ -149,5 +147,9 @@
         img {
             margin-bottom: 30px;
         }
+    }
+
+    .mobile-carousel {
+        display: block !important;
     }
 }
