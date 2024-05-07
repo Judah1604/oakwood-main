@@ -14,7 +14,12 @@ function Consultant() {
 					/>
 				</div>
 				<div className="col-md-7 text">
-					<form action="#" className="mt-3 mx-4" netlify>
+					<form
+						method="post"
+						name="Become a Consultant Form"
+						className="mt-3 mx-4"
+						netlify
+					>
 						<div className="mb-3">
 							<label for="name" className="form-label">
 								Full Name

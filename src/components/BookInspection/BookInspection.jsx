@@ -45,7 +45,7 @@ function BookInspection() {
 				<div className="col-md-6 text">
 					<form
 						method="post"
-						action="#"
+						name="Book an Inspection Form"
 						className="mt-3 mx-4"
 						netlify
 					>
