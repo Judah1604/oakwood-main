@@ -14,7 +14,7 @@ function Consultant() {
 					/>
 				</div>
 				<div className="col-md-7 text">
-					<form action="#" className="mt-3 mx-4">
+					<form action="#" className="mt-3 mx-4" netlify>
 						<div className="mb-3">
 							<label for="name" className="form-label">
 								Full Name
@@ -61,7 +61,7 @@ function Consultant() {
 								id="passport"
 								name="Passport Photograph"
 								required
-                                accept=".pdf"
+								accept=".pdf"
 							/>
 						</div>
 						<div className="mb-3">
@@ -85,7 +85,7 @@ function Consultant() {
 									<input
 										type="radio"
 										id="yes"
-										name="Experience in Real Estate"
+										name="Experienced in Real Estate"
 										required
 									/>
 									<label htmlFor="yes">Yes</label>
@@ -94,7 +94,7 @@ function Consultant() {
 									<input
 										type="radio"
 										id="no"
-										name="Experience in Real Estate"
+										name="Not Experienced in Real Estate"
 										required
 									/>
 									<label htmlFor="no">No</label>
@@ -171,7 +171,10 @@ function Consultant() {
 							/>
 						</div>
 						<div className="submitBtn">
-							<button className="btn btn-orange icon-left">
+							<button
+								className="btn btn-orange icon-left"
+								type="submit"
+							>
 								<i class="fa-solid fa-paper-plane"></i>Submit
 							</button>
 						</div>

@@ -43,7 +43,12 @@ function BookInspection() {
 					/>
 				</div>
 				<div className="col-md-6 text">
-					<form action="#" className="mt-3 mx-4">
+					<form
+						method="post"
+						action="#"
+						className="mt-3 mx-4"
+						netlify
+					>
 						<div className="mb-3">
 							<label for="name" className="form-label">
 								Full Name
@@ -117,7 +122,10 @@ function BookInspection() {
 							></textarea>
 						</div>
 						<div className="submitBtn">
-							<button className="btn btn-orange icon-left">
+							<button
+								className="btn btn-orange icon-left"
+								type="submit"
+							>
 								<i class="fa-solid fa-paper-plane"></i>Submit
 							</button>
 						</div>

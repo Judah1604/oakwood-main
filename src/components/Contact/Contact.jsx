@@ -46,7 +46,7 @@ function Contact() {
 							</div>
 						</div>
 					</div>
-					<form action="#" className="col-md-8 form">
+					<form action="#" className="col-md-8 form" netlify>
 						<div className="form-group row">
 							<input
 								className="col-md-5 form-control"
@@ -77,7 +77,11 @@ function Contact() {
 							></textarea>
 						</div>
 						<div className="form-btn">
-							<a href="#" className="btn btn-orange icon-left">
+							<a
+								href="#"
+								className="btn btn-orange icon-left"
+								type="submit"
+							>
 								<i class="fa-solid fa-paper-plane"></i>
 								Submit
 							</a>

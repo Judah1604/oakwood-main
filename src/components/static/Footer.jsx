@@ -1,7 +1,6 @@
 import "./styles/static.css";
 
 function Footer() {
-
 	return (
 		<>
 			<footer className="footer bg-dark text-white">
@@ -26,7 +25,7 @@ function Footer() {
 						<a href="#">
 							<i class="fa-brands fa-linkedin-in"></i>
 						</a>
-						<a href="#">
+						<a href="https://wa.me/+2349168434315">
 							<i class="fa-brands fa-whatsapp"></i>
 						</a>
 					</div>
@@ -34,6 +33,11 @@ function Footer() {
 					<h2>01-4536043</h2>
 				</div>
 			</footer>
+			<div className="whatsapp-btn">
+				<a href="https://wa.me/+2349168434315">
+					<i class="fa-brands fa-whatsapp"></i>
+				</a>
+			</div>
 		</>
 	);
 }
