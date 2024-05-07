@@ -1,16 +1,15 @@
+import { Modal } from "bootstrap";
 import { useEffect } from "react";
 
 function EstatesModal() {
-	
 	useEffect(() => {
-		// const modal = document.querySelector("#estatesModal");
-		const modal = new bootstrap.Modal(
+		const modal = new Modal(
 			document.querySelector("#estatesModal")
 		);
 
-        window.onload = () => {
-            modal.show()
-        }
+		window.onload = () => {
+			modal.show();
+		};
 	}, []);
 
 	return (
