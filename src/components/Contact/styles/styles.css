@@ -68,4 +68,7 @@
   .contact form .row input {
     width: 100% !important;
   }
+  .contact .info > * {
+    margin-bottom: 30px;
+  }
 }/*# sourceMappingURL=styles.css.map */

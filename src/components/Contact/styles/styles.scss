@@ -21,7 +21,7 @@
             margin: 0;
         }
 
-        p { 
+        p {
             font-size: 1.1em;
             margin: 0;
         }
@@ -78,14 +78,20 @@
 }
 
 @media only screen and (max-width: 425px) {
-    .contact form .row {
-        flex-direction: column;
-        margin: auto;
-        margin-bottom: 20px;
-        gap: 20px;
-        
-        input {
-            width: 100% !important;
+    .contact {
+        form .row {
+            flex-direction: column;
+            margin: auto;
+            margin-bottom: 20px;
+            gap: 20px;
+
+            input {
+                width: 100% !important;
+            }
+        }
+
+        .info > * {
+            margin-bottom: 30px;
         }
     }
 }

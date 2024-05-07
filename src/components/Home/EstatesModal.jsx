@@ -29,7 +29,7 @@ function EstatesModal() {
 					<div className="modal-body">
 						<div className="estates mt-4">
 							<div
-								id="estatesCarousel"
+								id="estatesCarouselModal"
 								class="estates-carousel carousel slide"
 								data-bs-ride="carousel"
 							>
@@ -137,7 +137,7 @@ function EstatesModal() {
 								</div>
 							</div>
 							<div
-								id="mobileCarousel"
+								id="mobileCarouselModal"
 								class="mobile-carousel carousel slide"
 								data-bs-ride="carousel"
 							>
@@ -276,7 +276,7 @@ function EstatesModal() {
 								<button
 									class="carousel-control-prev"
 									type="button"
-									data-bs-target="#mobileCarousel"
+									data-bs-target="#mobileCarouselModal"
 									data-bs-slide="prev"
 								>
 									<span
@@ -290,7 +290,7 @@ function EstatesModal() {
 								<button
 									class="carousel-control-next"
 									type="button"
-									data-bs-target="#mobileCarousel"
+									data-bs-target="#mobileCarouselModal"
 									data-bs-slide="next"
 								>
 									<span

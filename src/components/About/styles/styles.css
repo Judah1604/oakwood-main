@@ -123,6 +123,16 @@
   .brands {
     justify-content: center;
   }
+  .ceo-page h1 {
+    margin-top: 20px;
+  }
+  .ceo-page .about img {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .about .brands img {
+    height: 150px;
+  }
   .about .float-right {
     float: none;
   }

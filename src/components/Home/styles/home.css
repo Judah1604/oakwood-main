@@ -96,6 +96,9 @@
     text-align: center;
     gap: 50px;
   }
+  h1 {
+    font-size: 2em !important;
+  }
 }
 @media only screen and (max-width: 425px) {
   .estates .content .col-md-3 {
@@ -104,7 +107,7 @@
   .inspect img {
     margin-bottom: 30px;
   }
-  .estates-carousel {
+  .estates-carousel, .services-carousel {
     display: none !important;
   }
   .mobile-carousel {

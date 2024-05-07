@@ -9,7 +9,7 @@ function Footer() {
 					<h1>Oakwood Group Ltd</h1>
 				</div>
 				<div className="address">
-					<p>Opening Hours - 08AM - 06PM</p>
+					<p>Opening Hours - 09AM - 05PM</p>
 					<p>2nd Floor, Healthrite Plaza, Opp. Ikota </p>
 					<p>Shopping Complex, Lekki - Ajah </p>
 					<p>Exp.way. Ajah</p>

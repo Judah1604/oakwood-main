@@ -159,8 +159,26 @@
         justify-content: center;
     }
 
-    .about .float-right {
-        float: none;
+    .ceo-page {
+        h1 {
+            margin-top: 20px;
+        }
+
+        .about img {
+            margin: auto;
+            margin-bottom: 20px;
+        }
+    }
+
+    .about {
+
+        .brands img {
+            height: 150px;
+        }
+
+        .float-right {
+            float: none;
+        }
     }
 
     .meet-our-team {
@@ -171,10 +189,11 @@
         }
     }
 
-        .members {
-            width: 100% !important;
-            .col-md-3 {
-                width: 100%;
-            }
+    .members {
+        width: 100% !important;
+
+        .col-md-3 {
+            width: 100%;
         }
+    }
 }
