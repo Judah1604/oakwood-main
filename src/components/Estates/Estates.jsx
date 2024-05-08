@@ -86,7 +86,7 @@ function Estates() {
 						sqms={["250SQM", "500SQM"]}
 						title={"Deeds and Registered Survey"}
 						payments={[
-							"Residential - N1,500,000.00",
+							"Residential - N8,000,000.00",
 							"Commercial - 3,000,000.00",
 						]}
 						landmarks={
@@ -111,7 +111,7 @@ function Estates() {
 						sqms={["250SQM", "500SQM"]}
 						title={"Certificate of Occupancy"}
 						payments={[
-							"500SQM - 45,000,000.00",
+							"500SQM - 4,500,000.00",
 							"Initial Deposit - N900,000.00",
 						]}
 						landmarks={

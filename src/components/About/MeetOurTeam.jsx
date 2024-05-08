@@ -77,7 +77,7 @@ function MeetOurTeam() {
 							alt="Olusola Olajumoke M."
 						/>
 						<h3>
-							<b>Olusola Olajumoke M.</b>
+							<b>OLUSOLA OLAJUMOKE M.</b>
 						</h3>
 						<h3>Secretary</h3>
 					</div>
