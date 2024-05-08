@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 function Estates() {
 	return (
 		<>
@@ -319,10 +321,13 @@ function Estates() {
 					Our <span>Journals</span>
 				</h1>
 				<div className="row container-fluid justify-content-around align-items-center">
-					<img
+					<motion.img
 						src="/estates/inspect.jpeg"
 						alt="Book an inspection"
 						className="col-md-5"
+						initial={{ y: 100, opacity: 0 }}
+						whileInView={{ y: 0, opacity: 1 }}
+						viewport={{ once: true }}
 					/>
 					<div className="text col-md-5 text-center">
 						<h1>Why Wait? Join Us And Achieve Something Great</h1>

@@ -54,6 +54,10 @@
   color: black;
   text-decoration: none;
 }
+.estates .toggle i {
+  margin-right: 10px;
+  color: #ff5810;
+}
 .estates .up i {
   transform: rotate(180deg);
 }

@@ -1,10 +1,16 @@
+import { motion } from 'framer-motion';
 import './styles/home.css'
 
 const Objectives = () => {
 	return (
 		<>
 			<div className="objectives container-fluid row">
-				<div className="col-md-3 bg-dark p-5">
+				<motion.div
+					className="col-md-3 bg-dark p-5"
+					initial={{ y: 100, opacity: 0 }}
+					whileInView={{ y: 0, opacity: 1 }}
+					viewport={{ once: true }}
+				>
 					<i class="fa-solid fa-bullseye"></i>
 					<h1>Our Mission</h1>
 					<p>
@@ -12,8 +18,13 @@ const Objectives = () => {
 						Intelligence and progress our services hinging on
 						collaboration and innovative ideas through integrity.
 					</p>
-				</div>
-				<div className="col-md-3 bg-orange p-5">
+				</motion.div>
+				<motion.div
+					className="col-md-3 bg-orange p-5"
+					initial={{ y: 100, opacity: 0 }}
+					whileInView={{ y: 0, opacity: 1 }}
+					viewport={{ once: true }}
+				>
 					<i class="fa-solid fa-chart-line"></i>
 					<h1>Our Vision</h1>
 					<p>
@@ -22,8 +33,13 @@ const Objectives = () => {
 						establishing long term productive relationships with
 						clients
 					</p>
-				</div>
-				<div className="col-md-3 bg-dark p-5">
+				</motion.div>
+				<motion.div
+					className="col-md-3 bg-dark p-5"
+					initial={{ y: 100, opacity: 0 }}
+					whileInView={{ y: 0, opacity: 1 }}
+					viewport={{ once: true }}
+				>
 					<i class="fa-solid fa-coins"></i>
 					<h1>Our Values</h1>
 					<p>
@@ -31,7 +47,7 @@ const Objectives = () => {
 						responsiveness, team-spirit and excellence shapes our
 						approach to every opportunity and every customer.
 					</p>
-				</div>
+				</motion.div>
 			</div>
 			<div className="bg-dark-subtle p-4">
 				<h1 className="text-center uppercase mb-3">
@@ -100,7 +116,12 @@ const Objectives = () => {
 						<div className="carousel-inner">
 							<div className="carousel-item active">
 								<div className="content row justify-content-center">
-									<div className="col-md-5">
+									<motion.div
+										className="col-md-5"
+										initial={{ y: 100, opacity: 0 }}
+										whileInView={{ y: 0, opacity: 1 }}
+										viewport={{ once: true }}
+									>
 										<img
 											src="/services/investment.jpeg"
 											alt="Real Estate Investment"
@@ -109,12 +130,17 @@ const Objectives = () => {
 										<h2 className="text-center">
 											Real Estate <span>Investment</span>
 										</h2>
-									</div>
+									</motion.div>
 								</div>
 							</div>
 							<div className="carousel-item">
 								<div className="content row justify-content-center">
-									<div className="col-md-5">
+									<motion.div
+										className="col-md-5"
+										initial={{ y: 100, opacity: 0 }}
+										whileInView={{ y: 0, opacity: 1 }}
+										viewport={{ once: true }}
+									>
 										<img
 											src="/services/property.jpeg"
 											alt="Property Development"
@@ -123,12 +149,17 @@ const Objectives = () => {
 										<h2 className="text-center">
 											Property <span>Development</span>
 										</h2>
-									</div>
+									</motion.div>
 								</div>
 							</div>
 							<div className="carousel-item">
 								<div className="content row justify-content-center">
-									<div className="col-md-5">
+									<motion.div
+										className="col-md-5"
+										initial={{ y: 100, opacity: 0 }}
+										whileInView={{ y: 0, opacity: 1 }}
+										viewport={{ once: true }}
+									>
 										<img
 											src="/services/management.jpeg"
 											alt="Real Estate Management"
@@ -137,12 +168,17 @@ const Objectives = () => {
 										<h2 className="text-center">
 											Real Estate <span>Management</span>
 										</h2>
-									</div>
+									</motion.div>
 								</div>
 							</div>
 							<div className="carousel-item">
 								<div className="content row justify-content-center">
-									<div className="col-md-5">
+									<motion.div
+										className="col-md-5"
+										initial={{ y: 100, opacity: 0 }}
+										whileInView={{ y: 0, opacity: 1 }}
+										viewport={{ once: true }}
+									>
 										<img
 											src="/services/consultancy.jpeg"
 											alt="Real Estate Consultancy"
@@ -151,7 +187,7 @@ const Objectives = () => {
 										<h2 className="text-center">
 											Real Estate <span>Consultancy</span>
 										</h2>
-									</div>
+									</motion.div>
 								</div>
 							</div>
 						</div>

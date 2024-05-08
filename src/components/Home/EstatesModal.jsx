@@ -303,6 +303,7 @@ function EstatesModal() {
 								<div className="toggle mb-3">
 									<h2>
 										<a href="/estates">
+											<i class="fa-solid fa-angles-down"></i>
 											View all Our Estates
 										</a>
 									</h2>
