@@ -12,6 +12,8 @@
   border-radius: 15px;
   cursor: pointer;
   transition: 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
 .objectives > * i {
   font-size: 2.5em;
@@ -21,11 +23,33 @@
 .objectives > * h1 {
   margin-bottom: 20px;
 }
-.objectives > *:hover {
-  transform: translateY(-10px);
+.objectives > * .text {
+  position: relative;
+  z-index: 2;
+}
+.objectives > *::before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  transform: translateY(100%);
+  opacity: 0;
+  transition: 0.5s ease;
+  border-radius: inherit;
+}
+.objectives > *:hover::before {
+  transform: translateY(0%);
+  opacity: 1;
+}
+.objectives .bg-dark::before {
+  background-color: #ff5810;
 }
 .objectives .bg-orange {
   background-color: #ff5810;
+}
+.objectives .bg-orange::before {
+  background-color: #212529;
 }
 
 .services img {
@@ -111,7 +135,8 @@
   .inspect img {
     margin-bottom: 30px;
   }
-  .estates-carousel, .services-carousel {
+  .estates-carousel,
+  .services-carousel {
     display: none !important;
   }
   .mobile-carousel {

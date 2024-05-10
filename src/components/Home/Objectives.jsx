@@ -11,13 +11,16 @@ const Objectives = () => {
 					whileInView={{ y: 0, opacity: 1 }}
 					viewport={{ once: true }}
 				>
-					<i class="fa-solid fa-bullseye"></i>
-					<h1>Our Mission</h1>
-					<p>
-						To simplify, and modernize through the use of Artificial
-						Intelligence and progress our services hinging on
-						collaboration and innovative ideas through integrity.
-					</p>
+					<div className="text">
+						<i class="fa-solid fa-bullseye"></i>
+						<h1>Our Mission</h1>
+						<p>
+							To simplify, and modernize through the use of
+							Artificial Intelligence and progress our services
+							hinging on collaboration and innovative ideas
+							through integrity.
+						</p>
+					</div>
 				</motion.div>
 				<motion.div
 					className="col-md-3 bg-orange p-5"
@@ -25,14 +28,16 @@ const Objectives = () => {
 					whileInView={{ y: 0, opacity: 1 }}
 					viewport={{ once: true }}
 				>
-					<i class="fa-solid fa-chart-line"></i>
-					<h1>Our Vision</h1>
-					<p>
-						Thrive to be the best Real Estate Broker, providing
-						excellent and consistent customer experience while
-						establishing long term productive relationships with
-						clients
-					</p>
+					<div className="text">
+						<i class="fa-solid fa-chart-line"></i>
+						<h1>Our Vision</h1>
+						<p>
+							Thrive to be the best Real Estate Broker, providing
+							excellent and consistent customer experience while
+							establishing long term productive relationships with
+							clients
+						</p>
+					</div>
 				</motion.div>
 				<motion.div
 					className="col-md-3 bg-dark p-5"
@@ -40,13 +45,16 @@ const Objectives = () => {
 					whileInView={{ y: 0, opacity: 1 }}
 					viewport={{ once: true }}
 				>
-					<i class="fa-solid fa-coins"></i>
-					<h1>Our Values</h1>
-					<p>
-						A culture of respect, integrity, humility, service,
-						responsiveness, team-spirit and excellence shapes our
-						approach to every opportunity and every customer.
-					</p>
+					<div className="text">
+						<i class="fa-solid fa-coins"></i>
+						<h1>Our Values</h1>
+						<p>
+							A culture of respect, integrity, humility, service,
+							responsiveness, team-spirit and excellence shapes
+							our approach to every opportunity and every
+							customer.
+						</p>
+					</div>
 				</motion.div>
 			</div>
 			<div className="bg-dark-subtle p-4">
