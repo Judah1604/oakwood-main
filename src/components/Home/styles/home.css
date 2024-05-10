@@ -66,6 +66,9 @@
 .estates > * img {
   margin-bottom: 25px;
 }
+.estates .content.row {
+  justify-content: space-around;
+}
 .estates button span {
   width: 5rem;
   height: 5rem;
