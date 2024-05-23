@@ -78,7 +78,7 @@ function Nav({pathname}) {
 					<div>
 						<a
 							className={
-								pathname === "/about/gallery"
+								pathname === "/estates/gallery"
 									? "nav-link active"
 									: "nav-link"
 							}
