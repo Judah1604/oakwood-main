@@ -82,7 +82,7 @@ function Nav({pathname}) {
 									? "nav-link active"
 									: "nav-link"
 							}
-							href="/about/gallery"
+							href="/estates/gallery"
 						>
 							Gallery
 						</a>
