@@ -84,6 +84,17 @@ function MeetOurTeam() {
 					<div className="member col-md-3">
 						<img
 							className="mb-3"
+							src="/images/team/tamara.jpeg"
+							alt="OLUWANIFEMI TAMARA BROWN"
+						/>
+						<h3>
+							<b>OLUWANIFEMI TAMARA BROWN</b>
+						</h3>
+						<h3>Executive Assistant</h3>
+					</div>
+					<div className="member col-md-3">
+						<img
+							className="mb-3"
 							src="/images/team/justice.jpeg"
 							alt="IHEZUO JUSTICEMARY CHUKWUJEKWU"
 						/>
