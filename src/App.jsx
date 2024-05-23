@@ -1,6 +1,7 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Home from "./components/Home/Home";
 import Estates from "./components/Estates/Estates";
+import Gallery from "./components/Estates/Gallery";
 import Navbar from "./components/static/Navbar";
 import Footer from "./components/static/Footer";
 import "./styles/base/common.css";
@@ -20,6 +21,7 @@ function App() {
 				<Routes>
 					<Route path="/" Component={Home} />
 					<Route path="/estates" Component={Estates} />
+					<Route path="/estates/gallery" Component={Gallery} />
 					<Route path="/about" Component={About} />
 					<Route
 						path="/about/meet-our-team"
