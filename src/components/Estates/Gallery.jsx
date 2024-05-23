@@ -1,4 +1,5 @@
 import ImgUnderlay from "../../utils/ImgUnderlay";
+import "./styles/styles.css";
 
 function Gallery() {
   return (
