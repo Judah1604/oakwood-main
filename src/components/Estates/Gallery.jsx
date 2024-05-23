@@ -3,7 +3,7 @@ import ImgUnderlay from "../../utils/ImgUnderlay";
 function Gallery() {
   return (
     <>
-      <div className="contaner gallery">
+      <div className="container gallery">
         <ImgUnderlay title={"Gallery"} />
         <div className="images mt-5 gap-2 row">
           <div className="col-md-4"><img src="/gallery/land.JPG" alt="LAND" /></div>
@@ -28,4 +28,4 @@ function Gallery() {
     </>
   );
 }
-export default App;
+export default Gallery;
