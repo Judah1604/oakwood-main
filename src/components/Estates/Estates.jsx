@@ -87,7 +87,7 @@ function Estates() {
 						title={"Deeds and Registered Survey"}
 						payments={[
 							"Residential - N8,000,000.00",
-							"Commercial - 3,000,000.00",
+							"Initial Deposit - 3,000,000.00",
 						]}
 						landmarks={
 							"Epe Resort and Spa, Epe Recreation Center, Epe Mangroves, Lekki Conservation Centre, Atlantic Hall Epe, Eleko Beach"

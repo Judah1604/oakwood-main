@@ -69,7 +69,7 @@ const Objectives = () => {
 						<div className="carousel-inner">
 							<div className="carousel-item active">
 								<div className="content row justify-content-center">
-									<div className="col-md-5">
+									<div className="col-md-4">
 										<img
 											src="/services/investment.jpeg"
 											alt="Real Estate Investment"
@@ -79,7 +79,7 @@ const Objectives = () => {
 											Real Estate <span>Investment</span>
 										</h2>
 									</div>
-									<div className="col-md-5">
+									<div className="col-md-4">
 										<img
 											src="/services/property.jpeg"
 											alt="Property Development"
@@ -93,7 +93,7 @@ const Objectives = () => {
 							</div>
 							<div className="carousel-item">
 								<div className="content row justify-content-center">
-									<div className="col-md-5">
+									<div className="col-md-4">
 										<img
 											src="/services/consultancy.jpeg"
 											alt="Real Estate Consultancy"
@@ -103,7 +103,7 @@ const Objectives = () => {
 											Real Estate <span>Consultancy</span>
 										</h2>
 									</div>
-									<div className="col-md-5">
+									<div className="col-md-4">
 										<img
 											src="/services/management.jpeg"
 											alt="Real Estate Management"
@@ -126,7 +126,7 @@ const Objectives = () => {
 							<div className="carousel-item active">
 								<div className="content row justify-content-center">
 									<motion.div
-										className="col-md-5"
+										className="col-md-4"
 										initial={{ y: 100, opacity: 0 }}
 										whileInView={{ y: 0, opacity: 1 }}
 										viewport={{ once: true }}
@@ -145,7 +145,7 @@ const Objectives = () => {
 							<div className="carousel-item">
 								<div className="content row justify-content-center">
 									<motion.div
-										className="col-md-5"
+										className="col-md-4"
 										initial={{ y: 100, opacity: 0 }}
 										whileInView={{ y: 0, opacity: 1 }}
 										viewport={{ once: true }}
@@ -164,7 +164,7 @@ const Objectives = () => {
 							<div className="carousel-item">
 								<div className="content row justify-content-center">
 									<motion.div
-										className="col-md-5"
+										className="col-md-4"
 										initial={{ y: 100, opacity: 0 }}
 										whileInView={{ y: 0, opacity: 1 }}
 										viewport={{ once: true }}
@@ -183,7 +183,7 @@ const Objectives = () => {
 							<div className="carousel-item">
 								<div className="content row justify-content-center">
 									<motion.div
-										className="col-md-5"
+										className="col-md-4"
 										initial={{ y: 100, opacity: 0 }}
 										whileInView={{ y: 0, opacity: 1 }}
 										viewport={{ once: true }}

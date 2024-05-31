@@ -8,8 +8,8 @@ function Projects() {
 			</h1>
 			<div className="videos row">
 				<iframe
-					width="726"
-					height="408"
+					width="480"
+					height="360"
 					className="col-md-6"
 					src="https://www.youtube.com/embed/R62P2m6XLBo"
 					title="Oakwood Gardens Phase II"
@@ -19,8 +19,8 @@ function Projects() {
 					allowfullscreen
 				></iframe>
 				<iframe
-					width="726"
-					height="408"
+					width="480"
+					height="360"
 					className="col-md-6"
 					src="https://www.youtube.com/embed/43PHPKfnPbY"
 					title="OAKWOOD GARDENS PHASE 2"
@@ -30,8 +30,8 @@ function Projects() {
 					allowfullscreen
 				></iframe>
 				<iframe
-					width="726"
-					height="408"
+					width="480"
+					height="360"
 					className="col-md-6"
 					src="https://www.youtube.com/embed/z0vGP8qIEyg"
 					title="SKYFALL BY  OAKWOOD"

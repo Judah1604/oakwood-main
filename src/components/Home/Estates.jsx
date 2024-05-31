@@ -322,7 +322,7 @@ function Estates() {
 				</h1>
 				<div className="row container-fluid justify-content-around align-items-center">
 					<motion.img
-						src="/estates/inspect.jpeg"
+						src="/estates/inspect.jpg"
 						alt="Book an inspection"
 						className="col-md-5"
 						initial={{ y: 100, opacity: 0 }}
