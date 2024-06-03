@@ -15,40 +15,28 @@ function About() {
 						/>
 						Oakwood Realtors and Concepts is a Real Estate Company
 						managed by seasoned professionals with verifiable track-
-						records regulated under the Lagos State Real Estate
-						Regulatory Authority and registered with the Corporate
-						Affairs Commission. It has grown over the years and with
-						branches all over the major cities in Nigeria such as
-						Abuja, Lagos, Port Harcourt, Calabar and currently
-						working on its branch in Ghana. With the strength of
-						over 40 professionals across Nigeria. The Company was
-						established with the intent of becoming a top tier
-						professionally managed Real Estate Company in Nigeria.
-						The Company was established with the intent of becoming
-						a top tier professionally managed Real Estate Company in
-						Nigeria. Oakwood is amongst the top 20 Real Estate Firms
-						in Nigeria in the Real Estate Development Association of
-						Nigeria REDAN's list of Estate Brokers, having dealt
-						with the value of over 10Billion units of Estates in
-						Nigeria and now expanding its scope to other African
-						Countries. Broadly, Oakwood provides a full range of
-						Land Investment Options, Land Banking, Partnership to
-						Sponsor (P2S), Design and Building, Estate Development,
-						Joint Venture Options, Project Financing, Land
-						Acquisition and Brokerage as well as Projects Off-Taking
-						services to a broad range of customers (Public and
-						Private sector organizations, Corporate Clients,
-						Institutions and High Net-worth Individuals). At
-						Oakwood, we are focused on incorporating sustainable
-						business practices into our operations through a sturdy
-						emphasis on quality service, superior research and a
-						customer driven corporate culture. We stand committed to
-						add-value to the Real Estate Sector of the economy in
-						Nigeria. Our corporate governance is top notch. The firm
-						believes that the key to success and reputation will be
-						driven by its philosophy of establishing long term
-						relationship with Clients and a focus on its core
-						businesses.
+						recorOakwood Group Limited is a Real Estate Company managed by 
+seasoned professionals with verifiable track- records regulated under 
+the Lagos State Real Estate Regulatory Authority and registered with 
+the Corporate Affairs Commission. It has grown over the years and 
+with branches all over the major cities in Nigeria such as Abuja, 
+Lagos, Port Harcourt, Calabar and currently working on its branch in 
+Ghana. With the strength of over 40 professionals across Nigeria. The Company was established with the 
+intent of becoming a top tier professionally managed Real Estate Company in Nigeria. 
+The Company was established with the intent of becoming a top tier professionally managed Real Estate 
+Company in Nigeria. Oakwood Group Ltd is amongst the top 20 Real Estate Firms in Nigeria in the Real 
+Estate Development Association of Nigeria REDAN's list of Estate Brokers, having dealt with the value of 
+over 10Billion units of Estates in Nigeria and now expanding its scope to other African Countries. 
+Broadly, Oakwood Group Ltd provides a full range of Land Investment Options, Land Banking, 
+Partnership to Sponsor (P2S), Design and Building, Estate Development, Joint Venture Options, Project 
+Financing, Land Acquisition and Brokerage as well as Projects Off-Taking services to a broad range of 
+customers (Public and Private sector organizations, Corporate Clients, Institutions and High Net-worth 
+Individuals). At Oakwood Group Ltd, we are focused on incorporating sustainable business practices into 
+our operations through a sturdy emphasis on quality service, superior research and a customer driven 
+corporate culture. We stand committed to add-value to the Real Estate Sector of the economy in 
+Nigeria. Our corporate governance is top notch. The firm believes that the key to success and reputation 
+will be driven by its philosophy of establishing long term relationship with Clients and a focus on its 
+core businesses.
 					</p>
 				</div>
 				<div className="objectives container row">
