@@ -24,7 +24,7 @@ function HeroSection() {
 						/>
 					</div>
 				</div>
-					class="carousel-control-prev"
+					<button class="carousel-control-prev"
 							type="button"
 							data-bs-target="#heroCarousel"
 							data-bs-slide="prev"
