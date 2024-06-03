@@ -13,13 +13,9 @@ function About() {
 							alt="Oakwood Gardens"
 							className="float-left"
 						/>
-						Oakwood Realtors and Concepts is a Real Estate Company
-						managed by seasoned professionals with verifiable track-
-						recorOakwood Group Limited is a Real Estate Company managed by 
-seasoned professionals with verifiable track- records regulated under 
-the Lagos State Real Estate Regulatory Authority and registered with 
-the Corporate Affairs Commission. It has grown over the years and 
-with branches all over the major cities in Nigeria such as Abuja, 
+						Oakwood Group Limited is a Real Estate Company managed by 
+seasoned professionals with verifiable track- records regulated under the Lagos State Real Estate Regulatory Authority and registered with 
+the Corporate Affairs Commission. It has grown over the years and with branches all over the major cities in Nigeria such as Abuja, 
 Lagos, Port Harcourt, Calabar and currently working on its branch in 
 Ghana. With the strength of over 40 professionals across Nigeria. The Company was established with the 
 intent of becoming a top tier professionally managed Real Estate Company in Nigeria. 
