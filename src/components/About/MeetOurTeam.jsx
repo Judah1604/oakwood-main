@@ -40,7 +40,7 @@ function MeetOurTeam() {
 					<div className="member col-md-3">
 						<img
 							className="mb-3"
-							src="/images/team/kayode.jpeg"
+							src="/images/team/kayode.jpg"
 							alt="AIYEOBASAN KAYODE ADETOLA"
 						/>
 						<h3>
@@ -57,7 +57,7 @@ function MeetOurTeam() {
 						<h3>
 							<b>OLAIDE OLUWAYOMI-AJEWOLE</b>
 						</h3>
-						<h3>Legal Practitioner</h3>
+						<h3>General Counsel</h3>
 					</div>
 					<div className="member col-md-3">
 						<img
@@ -79,12 +79,12 @@ function MeetOurTeam() {
 						<h3>
 							<b>OLUSOLA OLAJUMOKE M.</b>
 						</h3>
-						<h3>Secretary</h3>
+						<h3>Customer Service Representatives</h3>
 					</div>
 					<div className="member col-md-3">
 						<img
 							className="mb-3"
-							src="/images/team/tamara.jpeg"
+							src="/images/team/tamara.jpg"
 							alt="OLUWANIFEMI TAMARA BROWN"
 						/>
 						<h3>
@@ -95,7 +95,7 @@ function MeetOurTeam() {
 					<div className="member col-md-3">
 						<img
 							className="mb-3"
-							src="/images/team/justice.jpeg"
+							src="/images/team/justice.jpg"
 							alt="IHEZUO JUSTICEMARY CHUKWUJEKWU"
 						/>
 						<h3>
@@ -112,7 +112,7 @@ function MeetOurTeam() {
 						<h3>
 							<b>FORTUNE WOKO</b>
 						</h3>
-						<h3>Sales Rep</h3>
+						<h3>Sales Executive</h3>
 					</div>
 					<div className="member col-md-3">
 						<img
@@ -123,7 +123,7 @@ function MeetOurTeam() {
 						<h3>
 							<b>ERNEST SUNDAY</b>
 						</h3>
-						<h3>C.S.O</h3>
+						<h3>Chief Executive Officer</h3>
 					</div>
 				</div>
 			</div>
