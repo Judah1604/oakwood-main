@@ -26,6 +26,7 @@
 }
 .about .objectives .obj img {
   margin-bottom: 20px;
+  transition: 0.3s ease;
 }
 .about .objectives .obj img:hover {
   transform: scale(1.05);
