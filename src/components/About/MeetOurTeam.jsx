@@ -123,7 +123,7 @@ function MeetOurTeam() {
 						<h3>
 							<b>ERNEST SUNDAY</b>
 						</h3>
-						<h3>Chief Executive Officer</h3>
+						<h3>Chief Security Officer</h3>
 					</div>
 				</div>
 			</div>
