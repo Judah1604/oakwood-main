@@ -43,6 +43,8 @@ function EstateComponent({
 						</p>
 					))}
 				</div>
+				<h4>Estate Features</h4>
+				<p>Gated Estate, Stable electric, Good road, Clean water, Fire service, Police post, Standby security, Good network</p>
 				<h4>Landmarks</h4>
 				<p>{landmarks}</p>
 				<a
