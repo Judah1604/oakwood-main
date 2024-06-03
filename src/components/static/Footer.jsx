@@ -30,7 +30,8 @@ function Footer() {
 						</a>
 					</div>
 					<p>Oakwoodgroupltd</p>
-					<h2>01-4536043</h2>
+					<h3>01-4536043</h3>
+					<h3>+234 9168434315</h3>
 				</div>
 			</footer>
 			<div className="whatsapp-btn">
