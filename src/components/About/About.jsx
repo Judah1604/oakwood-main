@@ -9,7 +9,7 @@ function About() {
 				<div className="container-fluid">
 					<p className="float-right text">
 						<img
-							src="/images/brands/oakwood gardens.png"
+							src="/logo.png"
 							alt="Oakwood Gardens"
 							className="float-left"
 						/>
@@ -149,6 +149,11 @@ function About() {
 						className="img-fluid"
 					/>
 					<img
+						src="/images/brands/reechforver.png"
+						alt="reechforver"
+						className="img-fluid"
+					/>
+					<img
 						src="/images/brands/kankaro.png"
 						alt="Kankaro"
 						className="img-fluid"
@@ -157,11 +162,6 @@ function About() {
 						src="/images/brands/midspring.png"
 						alt="Midspring Court"
 						className="img-fluid wide-img"
-					/>
-					<img
-						src="/images/brands/reechforver.png"
-						alt="reechforver"
-						className="img-fluid"
 					/>
 				</div>
 			</div>
