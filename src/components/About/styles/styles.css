@@ -13,7 +13,7 @@
   float: right;
 }
 .about .text {
-  line-height: 1.4;
+  line-height: 1.7;
 }
 .about .text img {
   width: 350px;
@@ -27,13 +27,16 @@
 .about .objectives .obj img {
   margin-bottom: 20px;
 }
+.about .objectives .obj img:hover {
+  transform: scale(1.05);
+}
 .about .brands {
   gap: 100px;
 }
 .about .brands img {
   width: -moz-max-content;
   width: max-content;
-  height: 200px;
+  height: 170px;
   transition: 0.3s ease;
   cursor: pointer;
 }
@@ -41,7 +44,7 @@
   transform: scale(1.05);
 }
 .about .brands .wide-img {
-  width: 400px;
+  width: 300px;
   height: -moz-max-content;
   height: max-content;
 }
