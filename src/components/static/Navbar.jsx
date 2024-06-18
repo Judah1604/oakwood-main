@@ -2,7 +2,7 @@ import { useState } from "react";
 import Menu from "./Menu";
 import Nav from "./Nav";
 import "./styles/static.css";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function Navbar() {
 	const { pathname } = useLocation();
@@ -12,20 +12,27 @@ function Navbar() {
 		<>
 			<div className="navbar navbar-expand-lg p-3 bg-dark" id="navbar">
 				<div className="container-fluid">
-					<a href="/" className="navbar-brand">
+					<Link to={"/"} className="navbar-brand">
 						<img
 							src="/Logo.png"
 							alt="Oakwood Group"
 							className="logo"
 						/>
-					</a>
+					</Link>
 					<Nav pathname={pathname} />
-					<div className="menu-icon" onClick={() => setIsActive(true)}>
+					<div
+						className="menu-icon"
+						onClick={() => setIsActive(true)}
+					>
 						<i class="fa-solid fa-bars"></i>
 					</div>
 				</div>
 			</div>
-			<Menu pathname={pathname} status={isActive} setStatus={setIsActive} />
+			<Menu
+				pathname={pathname}
+				status={isActive}
+				setStatus={setIsActive}
+			/>
 		</>
 	);
 }

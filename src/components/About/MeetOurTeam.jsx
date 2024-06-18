@@ -1,5 +1,6 @@
 import React from "react";
 import ImgUnderlay from "../../utils/ImgUnderlay";
+import { Link } from "react-router-dom";
 
 function MeetOurTeam() {
 	return (
@@ -17,12 +18,7 @@ function MeetOurTeam() {
 						<h1>
 							<b>Kelvin Monday Udoh</b>
 						</h1>
-						<a
-							href="/about/ceo"
-							className="btn btn-orange uppercase mt-3"
-						>
-							Read More
-						</a>
+                        <Link className="btn btn-orange uppercase mt-3" to={"/about/ceo"}>Read More</Link>
 					</div>
 				</div>
 				<div className="container-fluid members row">
