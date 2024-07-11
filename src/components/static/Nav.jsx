@@ -44,7 +44,7 @@ function Nav({ pathname }) {
 									? "nav-link active"
 									: "nav-link"
 							}
-							to={"/about"}
+							to={"/about/meet-our-team"}
 						>
 							Meet our team
 						</Link>
@@ -73,7 +73,6 @@ function Nav({ pathname }) {
 									: "nav-link"
 							}
 							to={"/estates"}
-							data-bs-toggle="dropdown"
 						>
 							Estates
 						</Link>
