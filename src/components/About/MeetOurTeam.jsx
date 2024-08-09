@@ -25,7 +25,7 @@ function MeetOurTeam() {
 					<div className="member col-md-3">
 						<img
 							className="mb-3"
-							src="/images/team/rosemary.jpg"
+							src="/images/team/rosemary.jpeg"
 							alt="IDAKWO ROSEMARY OJONE"
 						/>
 						<h3>
@@ -47,7 +47,7 @@ function MeetOurTeam() {
 					<div className="member col-md-3">
 						<img
 							className="mb-3"
-							src="/images/team/olaide.jpg"
+							src="/images/team/olaide.jpeg"
 							alt="OLAIDE OLUWAYOMI-AJEWOLE"
 						/>
 						<h3>
@@ -58,7 +58,7 @@ function MeetOurTeam() {
 					<div className="member col-md-3">
 						<img
 							className="mb-3"
-							src="/images/team/zane.jpg"
+							src="/images/team/zane.jpeg"
 							alt="MOSES MICHAEL O."
 						/>
 						<h3>
@@ -69,7 +69,7 @@ function MeetOurTeam() {
 					<div className="member col-md-3">
 						<img
 							className="mb-3"
-							src="/images/team/jummy.jpg"
+							src="/images/team/jummy.jpeg"
 							alt="Olusola Olajumoke M."
 						/>
 						<h3>
@@ -102,7 +102,7 @@ function MeetOurTeam() {
 					<div className="member col-md-3">
 						<img
 							className="mb-3"
-							src="/images/team/fortune.jpg"
+							src="/images/team/fortune.jpeg"
 							alt="FORTUNE WOKO"
 						/>
 						<h3>
@@ -113,7 +113,7 @@ function MeetOurTeam() {
 					<div className="member col-md-3">
 						<img
 							className="mb-3"
-							src="/images/team/sunday.jpg"
+							src="/images/team/sunday.jpeg"
 							alt="ERNEST SUNDAY"
 						/>
 						<h3>

@@ -21,11 +21,18 @@ body {
 .btn-orange.icon-left i {
   margin-right: 10px;
 }
+.btn-orange a {
+  color: white;
+  text-decoration: none;
+}
 
 .mobile-carousel {
   display: none;
 }
 
-h1 span, h2 span, h3 span, h4 span {
+h1 span,
+h2 span,
+h3 span,
+h4 span {
   color: #ff5810;
 }/*# sourceMappingURL=common.css.map */

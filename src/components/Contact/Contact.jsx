@@ -1,7 +1,27 @@
 import "./styles/styles.css";
 import ImgUnderlay from "../../utils/ImgUnderlay";
+import { useRef } from "react";
 
 function Contact() {
+	const form = useRef();
+
+	const sendEmail = (e) => {
+		e.preventDefault();
+
+		emailjs
+			.sendForm("oakwood_email", "contact_form", form.current, {
+				publicKey: "LxuvrmRXGTb0fw2rh",
+			})
+			.then(
+				() => {
+					console.log("SUCCESS!");
+				},
+				(error) => {
+					console.log("FAILED...", error.text);
+				}
+			);
+	};
+
 	return (
 		<>
 			<ImgUnderlay title={"Contact Us"} />
@@ -48,41 +68,40 @@ function Contact() {
 					</div>
 					<form
 						name="Contact Form"
-						method="POST"
 						className="col-md-8 form"
-						data-netlify="true"
+						ref={form}
+                        action="/"
+						onSubmit={(e) => sendEmail}
 					>
-						<input
-							type="hidden"
-							name="form-name"
-							value="Contact Form"
-						/>
 						<div className="form-group row">
 							<input
 								className="col-md-5 form-control"
 								type="text"
-								name="Full Name"
+								name="name"
 								placeholder="Name"
+								required
 							/>
 							<input
 								className="col-md-5 form-control"
 								type="text"
-								name="Email"
+								name="email"
 								placeholder="Email"
+								required
 							/>
 						</div>
 						<div className="form-group">
 							<input
 								className="form-control"
 								type="text"
-								name="Subject"
+								name="subject"
 								placeholder="Subject"
+								required
 							/>
 						</div>
 						<div className="form-group">
 							<textarea
 								className="form-control"
-								name="Message"
+								name="message"
 								placeholder="Message"
 							></textarea>
 						</div>

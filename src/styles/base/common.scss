@@ -27,13 +27,21 @@ body {
             margin-right: 10px;
         }
     }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
 }
 
 .mobile-carousel {
     display: none;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     span {
         color: #ff5810;
     }

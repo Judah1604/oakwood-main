@@ -15,46 +15,19 @@
 		></script>
 	</head>
 	<body>
-		<form name="Contact Form" netlify netlify-honeypot="bot-field" hidden>
-			<input type="text" name="Full Name" />
-			<input type="email" name="Email" />
-			<input type="text" name="Subject" />
-			<textarea name="Message"></textarea>
-		</form>
-		<form
-			name="Book an Inspection Form"
-			netlify
-			netlify-honeypot="bot-field"
-			hidden
-		>
-			<input type="text" name="Full Name" />
-			<input type="email" name="Email" />
-			<input type="number" name="Phone Number" />
-			<select name="Property"></select>
-			<input type="date" name="Date of Visitation" />
-			<textarea name="Message"></textarea>
-		</form>
-		<form
-			name="Become a Consultant Form"
-			netlify
-			netlify-honeypot="bot-field"
-			hidden
-		>
-			<input type="text" name="Full Name" />
-			<input type="email" name="Email" />
-			<input type="text" name="Address" />
-			<input type="file" name="Passport Photograph" />
-			<input type="number" name="Phone Number" />
-			<input type="radio" name="Experienced in Real Estate" />
-			<input type="radio" name="Not Experienced in Real Estate" />
-			<input type="radio" name="Male" />
-			<input type="radio" name="Female" />
-			<input type="text" name="Guarantor Name" />
-			<input type="text" name="Guarantor Phone Number" />
-			<input type="text" name="Guarantor Address" />
-		</form>
 		<div id="root"></div>
 		<script type="module" src="/src/main.jsx"></script>
 		<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+		></script>
+		<script type="text/javascript">
+			(function () {
+				emailjs.init({
+					publicKey: "LxuvrmRXGTb0fw2rh",
+				});
+			})();
+		</script>
 	</body>
 </html>
