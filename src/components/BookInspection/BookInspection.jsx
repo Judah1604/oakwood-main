@@ -2,8 +2,28 @@ import DatePicker from "react-datetime";
 import "react-datetime/css/react-datetime.css";
 import "./styles/styles.css";
 import ImgUnderlay from "../../utils/ImgUnderlay";
+import { useRef } from "react";
 
 function BookInspection() {
+	const inspect = useRef();
+
+	const sendEmail = (e) => {
+		e.preventDefault();
+
+		emailjs
+			.sendForm("oakwood_email", "inspection_form", form.current, {
+				publicKey: "LxuvrmRXGTb0fw2rh",
+			})
+			.then(
+				() => {
+					console.log("SUCCESS!");
+				},
+				(error) => {
+					console.log("FAILED...", error.text);
+				}
+			);
+	};
+
 	const listOfEstates = [
 		"",
 		"PAVILLION ESTATE-1 - Sangotedo",
@@ -44,16 +64,12 @@ function BookInspection() {
 				</div>
 				<div className="col-md-6 text">
 					<form
-						method="POST"
 						name="Book an Inspection Form"
 						className="mt-3 mx-4"
-						data-netlify="true"
+						action="/"
+						onSubmit={(e) => sendEmail}
+						ref={inspect}
 					>
-						<input
-							type="hidden"
-							name="form-name"
-							value="Book an Inspection Form"
-						/>
 						<div className="mb-3">
 							<label for="name" className="form-label">
 								Full Name
@@ -62,7 +78,7 @@ function BookInspection() {
 								type="text"
 								className="form-control"
 								id="name"
-								name="Full Name"
+								name="name"
 								required
 							/>
 						</div>
@@ -74,7 +90,7 @@ function BookInspection() {
 								type="email"
 								className="form-control"
 								id="email"
-								name="Email address"
+								name="email"
 								required
 							/>
 						</div>
@@ -86,7 +102,7 @@ function BookInspection() {
 								type="number"
 								className="form-control"
 								id="phone"
-								name="Phone Number"
+								name="phone"
 								required
 							/>
 						</div>
@@ -95,7 +111,7 @@ function BookInspection() {
 								Property
 							</label>
 							<select
-								name="Property"
+								name="property"
 								id="property"
 								className="form-control"
 								required
@@ -114,6 +130,7 @@ function BookInspection() {
 							<DatePicker
 								timeFormat={false}
 								isValidDate={disOtherDays}
+								name="date"
 							/>
 						</div>
 						<div className="mb-3">
@@ -121,7 +138,7 @@ function BookInspection() {
 								Message
 							</label>
 							<textarea
-								name="Message"
+								name="message"
 								id="message"
 								className="form-control"
 							></textarea>

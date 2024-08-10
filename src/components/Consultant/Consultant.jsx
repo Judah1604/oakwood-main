@@ -1,7 +1,27 @@
+import { useRef } from "react";
 import ImgUnderlay from "../../utils/ImgUnderlay";
 import './styles/styles.css';
 
 function Consultant() {
+    const form = useRef();
+
+	const sendEmail = (e) => {
+		e.preventDefault();
+
+		// emailjs
+		// 	.sendForm("oakwood_email", "consultant_form", form.current, {
+		// 		publicKey: "LxuvrmRXGTb0fw2rh",
+		// 	})
+		// 	.then(
+		// 		() => {
+		// 			console.log("SUCCESS!");
+		// 		},
+		// 		(error) => {
+		// 			console.log("FAILED...", error.text);
+		// 		}
+		// 	);
+	};
+
 	return (
 		<>
 			<ImgUnderlay title={"Become a Consultant Today"} />
@@ -15,16 +35,12 @@ function Consultant() {
 				</div>
 				<div className="col-md-7 text">
 					<form
-						method="POST"
 						name="Become a Consultant Form"
 						className="mt-3 mx-4"
-						data-netlify="true"
+						action="/"
+						onSubmit={(e) => sendEmail}
+						ref={form}
 					>
-						<input
-							type="hidden"
-							name="form-name"
-							value="Become a Consultant Form"
-						/>
 						<div className="mb-3">
 							<label for="name" className="form-label">
 								Full Name
