@@ -1,11 +1,23 @@
-import DatePicker from "react-datetime";
-import "react-datetime/css/react-datetime.css";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 import "./styles/styles.css";
 import ImgUnderlay from "../../utils/ImgUnderlay";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 
 function BookInspection() {
-	const inspect = useRef();
+	const form = useRef();
+	const [formData, setFormData] = useState({
+		name: "",
+		email: "",
+		phone: "",
+		date: new Date(),
+		property: "",
+		message: "",
+	});
+
+	const handleChange = (e) => {
+		setFormData({ ...formData, [e.target.name]: e.target.value });
+	};
 
 	const sendEmail = (e) => {
 		e.preventDefault();
@@ -19,9 +31,23 @@ function BookInspection() {
 					console.log("SUCCESS!");
 				},
 				(error) => {
-					console.log("FAILED...", error.text);
+					console.log("FAILED...", error);
 				}
 			);
+
+		setFormData({
+			name: "",
+			email: "",
+			phone: "",
+			date: new Date(),
+			property: "",
+			message: "",
+		});
+	};
+
+	const disableOtherDays = (date) => {
+		const day = date.getDay();
+		return day !== 2 && day !== 4 && day !== 5;
 	};
 
 	const listOfEstates = [
@@ -47,10 +73,6 @@ function BookInspection() {
 		"THE ICONIC -Okun Ajah, Ogombo",
 	];
 
-	const disOtherDays = (current) => {
-		return current.day() == 2 || current.day() == 4 || current.day() == 5;
-	};
-
 	return (
 		<>
 			<ImgUnderlay title={"Schedule an Inspection"} />
@@ -66,12 +88,11 @@ function BookInspection() {
 					<form
 						name="Book an Inspection Form"
 						className="mt-3 mx-4"
-						action="/"
-						onSubmit={(e) => sendEmail}
-						ref={inspect}
+						onSubmit={sendEmail}
+						ref={form}
 					>
 						<div className="mb-3">
-							<label for="name" className="form-label">
+							<label htmlFor="name" className="form-label">
 								Full Name
 							</label>
 							<input
@@ -80,10 +101,12 @@ function BookInspection() {
 								id="name"
 								name="name"
 								required
+								value={formData.name}
+								onChange={handleChange}
 							/>
 						</div>
 						<div className="mb-3">
-							<label for="email" className="form-label">
+							<label htmlFor="email" className="form-label">
 								Email address
 							</label>
 							<input
@@ -92,10 +115,12 @@ function BookInspection() {
 								id="email"
 								name="email"
 								required
+								value={formData.email}
+								onChange={handleChange}
 							/>
 						</div>
 						<div className="mb-3">
-							<label for="phone" className="form-label">
+							<label htmlFor="phone" className="form-label">
 								Phone Number
 							</label>
 							<input
@@ -104,10 +129,12 @@ function BookInspection() {
 								id="phone"
 								name="phone"
 								required
+								value={formData.phone}
+								onChange={handleChange}
 							/>
 						</div>
 						<div className="mb-3">
-							<label for="property" className="form-label">
+							<label htmlFor="property" className="form-label">
 								Property
 							</label>
 							<select
@@ -115,6 +142,8 @@ function BookInspection() {
 								id="property"
 								className="form-control"
 								required
+								value={formData.property}
+								onChange={handleChange}
 							>
 								{listOfEstates.map((item, index) => (
 									<option key={index} value={item}>
@@ -124,23 +153,29 @@ function BookInspection() {
 							</select>
 						</div>
 						<div className="mb-3">
-							<label for="date" className="form-label">
+							<label htmlFor="date" className="form-label">
 								Date
 							</label>
 							<DatePicker
-								timeFormat={false}
-								isValidDate={disOtherDays}
-								name="date"
+                                name="date"
+                                className="form-control date"
+								selected={formData.date}
+								onChange={(date) =>
+									setFormData({ ...formData, date: date })
+								}
+                                filterDate={disableOtherDays}
 							/>
 						</div>
 						<div className="mb-3">
-							<label for="message" className="form-label">
+							<label htmlFor="message" className="form-label">
 								Message
 							</label>
 							<textarea
 								name="message"
 								id="message"
 								className="form-control"
+								value={formData.message}
+								onChange={handleChange}
 							></textarea>
 						</div>
 						<div className="submitBtn">
@@ -148,7 +183,8 @@ function BookInspection() {
 								className="btn btn-orange icon-left"
 								type="submit"
 							>
-								<i class="fa-solid fa-paper-plane"></i>Submit
+								<i className="fa-solid fa-paper-plane"></i>
+								Submit
 							</button>
 						</div>
 					</form>

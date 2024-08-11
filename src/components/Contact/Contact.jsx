@@ -1,9 +1,19 @@
 import "./styles/styles.css";
 import ImgUnderlay from "../../utils/ImgUnderlay";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 
 function Contact() {
 	const form = useRef();
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        subject: '',
+        message: ''
+    })
+
+    const handleChange = (e)=>{
+        setFormData({...formData, [e.target.name] : e.target.value})
+    }
 
 	const sendEmail = (e) => {
 		e.preventDefault();
@@ -20,6 +30,8 @@ function Contact() {
 					console.log("FAILED...", error.text);
 				}
 			);
+
+            setFormData({name: '', email: '', subject: '', message: ''})
 	};
 
 	return (
@@ -70,8 +82,7 @@ function Contact() {
 						name="Contact Form"
 						className="col-md-8 form"
 						ref={form}
-                        action="/"
-						onSubmit={(e) => sendEmail}
+						onSubmit={sendEmail}
 					>
 						<div className="form-group row">
 							<input
@@ -80,6 +91,7 @@ function Contact() {
 								name="name"
 								placeholder="Name"
 								required
+								c
 							/>
 							<input
 								className="col-md-5 form-control"
@@ -87,6 +99,8 @@ function Contact() {
 								name="email"
 								placeholder="Email"
 								required
+								value={formData.email}
+								onChange={handleChange}
 							/>
 						</div>
 						<div className="form-group">
@@ -96,6 +110,8 @@ function Contact() {
 								name="subject"
 								placeholder="Subject"
 								required
+								value={formData.subject}
+								onChange={handleChange}
 							/>
 						</div>
 						<div className="form-group">
@@ -103,6 +119,8 @@ function Contact() {
 								className="form-control"
 								name="message"
 								placeholder="Message"
+								value={formData.message}
+								onChange={handleChange}
 							></textarea>
 						</div>
 						<div className="form-btn">
