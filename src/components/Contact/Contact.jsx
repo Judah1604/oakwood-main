@@ -91,7 +91,6 @@ function Contact() {
 								name="name"
 								placeholder="Name"
 								required
-								c
 							/>
 							<input
 								className="col-md-5 form-control"
